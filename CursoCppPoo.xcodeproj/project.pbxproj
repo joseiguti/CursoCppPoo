@@ -23,8 +23,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B03E6C12082659300E4ED51 /* Renault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renault.h; sourceTree = "<group>"; };
+		9B03E6C2208272B700E4ED51 /* Remolque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Remolque.h; sourceTree = "<group>"; };
+		9B03E6C3208272D700E4ED51 /* Articulado.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Articulado.h; sourceTree = "<group>"; };
+		9B03E6C42082733700E4ED51 /* RemolqueArticulado.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemolqueArticulado.h; sourceTree = "<group>"; };
+		9B03E6C520827D6400E4ED51 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		9B03E6C620827DA800E4ED51 /* Llama.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Llama.h; sourceTree = "<group>"; };
+		9B03E6C720829C8300E4ED51 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		9B03E6C92082A02600E4ED51 /* POO C++.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "POO C++.pdf"; sourceTree = "<group>"; };
 		9BE9B8E820825971005FB3FC /* CursoCppPoo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CursoCppPoo; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE9B8EB20825971005FB3FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9BE9B8F420825CFD005FB3FC /* VehiculoCombustion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehiculoCombustion.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +47,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B03E6C82082A01300E4ED51 /* MaterialApoyo */ = {
+			isa = PBXGroup;
+			children = (
+				9B03E6C92082A02600E4ED51 /* POO C++.pdf */,
+			);
+			path = MaterialApoyo;
+			sourceTree = "<group>";
+		};
 		9BE9B8DF20825971005FB3FC = {
 			isa = PBXGroup;
 			children = (
+				9B03E6C82082A01300E4ED51 /* MaterialApoyo */,
 				9BE9B8EA20825971005FB3FC /* CursoCppPoo */,
 				9BE9B8E920825971005FB3FC /* Products */,
 			);
@@ -57,9 +75,25 @@
 		9BE9B8EA20825971005FB3FC /* CursoCppPoo */ = {
 			isa = PBXGroup;
 			children = (
+				9BE9B8F320825CD3005FB3FC /* Clases */,
 				9BE9B8EB20825971005FB3FC /* main.cpp */,
 			);
 			path = CursoCppPoo;
+			sourceTree = "<group>";
+		};
+		9BE9B8F320825CD3005FB3FC /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9B8F420825CFD005FB3FC /* VehiculoCombustion.h */,
+				9B03E6C12082659300E4ED51 /* Renault.h */,
+				9B03E6C2208272B700E4ED51 /* Remolque.h */,
+				9B03E6C3208272D700E4ED51 /* Articulado.h */,
+				9B03E6C42082733700E4ED51 /* RemolqueArticulado.h */,
+				9B03E6C520827D6400E4ED51 /* Animal.h */,
+				9B03E6C620827DA800E4ED51 /* Llama.h */,
+				9B03E6C720829C8300E4ED51 /* Shape.h */,
+			);
+			path = Clases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
